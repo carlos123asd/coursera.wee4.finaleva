@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="style/general.css">
+    <link rel="stylesheet" href="style/menu.css">
+    <link rel="stylesheet" href="style/contact.css">
+    <link rel="stylesheet" href="style/footer.css">
+</head>
+<body>
+    <a class="jump_main" href="#jump_content_about">Saltar a Contenido Principal</a>
+    <header>
+        <nav>
+            <ul class="menu">
+                <li class="sub_menu_1"><a href="index.html">Productos</a></li>
+                <li class="sub_menu_2"><a href="index.html">Servicios</a></li>
+                <li class="sub_menu_3"><a href="about_us.html">Nosotros</a></li>
+                <li class="sub_menu_4"><a href="#jump_content_about">Contacto</a></li>
+            </ul>
+        </nav>
+
+        <div class="box_head">
+            <div class="texto">
+                <h1>Aumenta la Eficiencia Empresarial con Nuestras Soluciones Tecnol&oacute;gicas</h1>
+                <p>"Potencia tu negocio con nuestras soluciones tecnol&oacute;gicas l&iacute;deres, optimizando procesos y elevando la eficiencia para un &eacute;xito empresarial sin l&iacute;mites."</p>
+            </div>
+        </div>
+
+        <div class="wave" style="height: 150px; overflow: hidden;" > <!--Codigo SVG para generar las formas de las olas--> <!--https://smooth.ie/blogs/news/svg-wavey-transitions-between-sections-->
+            <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;">
+                <path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: rgb(89, 16, 156);"></path>
+            </svg>
+        </div>
+    </header>
+    <main class="content_contact" id="jump_content_about">  <!--Formato de formulario sin estructurar en el HTML5, dara errores en el validador WAVE, es a modo de vista unicamente-->
+            <div class="card_message">
+                <div>Escribenos tu mensaje:</div><input type="text" id="message" required minlength="4" maxlength="8" size="10"/> <!--Label error view / I Know-->
+                <div>
+                    <div class="butt_enviar"><a>Enviar</a></div>
+                </div>
+            </div>
+            <div class="card_mail">
+                <div>¿Cual es tu correo?:</div><input type="email" id="email" required minlength="4" maxlength="8" size="10"/> <!--Label error view / I Know-->
+                <div class="next"><a>&raquo;</a></div>
+            </div>
+            <div class="card_name">
+                <div>¿Cual es tu nombre?:</div><input type="text" id="name" required minlength="4" maxlength="8" size="10"/> <!--Label error view / I Know-->
+                <div class="next"><a>&raquo;</a></div>
+            </div> 
+    </main>
+    <footer>
+        <a class="_about" href="index.html">Inicio</a>
+        <a class="_about" href="#jump_content_about">Contacto</a>
+        <hr>
+        &copy; Coursera &VerticalSeparator; Carlos Alexander Medina Salas
+    </footer> 
+</body>
+</html>

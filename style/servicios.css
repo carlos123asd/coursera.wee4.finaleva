@@ -1,0 +1,45 @@
+.servicio>p{
+    color: black;
+    text-align: left;
+    margin-top: 10px;
+}
+.servicio>span{
+    color: black;
+    font-weight:900;
+    font-size: 1rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.servicios{
+    background-color:rgba(174, 175, 175, 0.247);
+}
+.servicio{
+    text-align: center;
+    padding: 20px;
+}
+
+div[class^="img_ser"]{
+    width: 100%;
+    height: 180px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 18px;
+}
+
+.img_service1{
+    background-image: url('../images/service1.jpg');
+}
+.img_service2{
+    background-image: url('../images/service2.jpg');
+}
+.img_service3{
+    background-image: url('../images/service3.jpg');
+}
+
+.contenedor_servicios{
+    display: grid;
+    grid-template-columns: 25% 25% 25%;
+    grid-column: auto;
+    justify-content: center;
+    gap: 40px;
+}
